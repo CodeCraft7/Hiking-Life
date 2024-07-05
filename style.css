@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+:root {
+    --acolor: #131c28;
+    --bcolor: #000;
+    --ccolor: #0099ff;
+    --dcolor: #ff3300;
+    --gcolor: #efefef;
+    --scolor: #1f262f;
+    --pcolor: #0cc4df;
+    --wcolor: #fff;
+}
+
+header {
+    background-image: url("img/Hero-section.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+}
+
+.box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 750px solid #0099ff;
+    border-left: 0px solid transparent;
+    border-right: 1580px solid transparent;
+    border-bottom: 100px solid transparent;
+    height: 750px;
+    width: 1550px;
+}
+
+.box2 {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    border-top: 750px solid var(--acolor);
+    border-left: 0px solid transparent;
+    border-right: 1580px solid transparent;
+    border-bottom: 100px solid transparent;
+    height: 750px;
+    width: 1550px;
+}
+
+.box3 {
+    position: absolute;
+    top: 0px;
+    right: 120px;
+    border-top: 750px solid var(--scolor);
+    border-left: 0px solid transparent;
+    border-right: 1580px solid transparent;
+    border-bottom: 100px solid transparent;
+    height: 750px;
+    width: 1550px;
+}
+
+nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    color: var(--pcolor);
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    color: var(--pcolor);
+}
+
+.logo h3 {
+
+    font-size: 15px;
+    text-align: center;
+}
+
+.nav-icon {
+    padding: 0px 160px;
+}
+
+header a {
+    color: var(--wcolor);
+    text-decoration: none;
+    padding: 30px;
+    font-size: 25px;
+}
+
+header a:nth-child(1) {
+    text-decoration: underline;
+    text-decoration-color: var(--ccolor);
+}
+
+header a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--ccolor);
+}
+
+.hero-content {
+    position: absolute;
+    color: var(--wcolor);
+    top: 230px;
+    left: 50px;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+}
+
+.hero-content p {
+    margin: 30px 0;
+    font-size: 30px;
+}
+
+.card-list {
+    padding: 50px;
+    font-size: 30px;
+    border-top: 8px solid var(--ccolor);
+}
+
+.card-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    /* border-bottom: 8px solid var(--ccolor); */
+}
+
+.card img {
+    border-radius: 100%;
+}
+
+.card {
+    background-color: var(--gcolor);
+    /* color: var(--ccolor); */
+    border: 2px solid var(--ccolor);
+    padding: 50px 30px;
+    margin: 50px 30px;
+    margin-top: 0;
+    border-radius: 30px;
+}
+
+.card h1 {
+    font-size: 40px;
+}
+
+.card p {
+    font-size: 20px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.rock {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px;
+    border-top: 8px solid var(--ccolor);
+}
+
+.rock-left {
+    text-align: left;
+}
+
+.rock-left h1 {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.rock-left h4 {
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.rock-left p {
+    font-size: 25px;
+    padding: 0 300px 0 0;
+}
+
+.rock-right img {
+    border: 2px solid var(--ccolor);
+    border-radius: 200px;
+}
+
+.rock-right h4 {
+    margin: 80px 0;
+    color: var(--ccolor);
+    font-size: 25px;
+}
+
+table,
+th,
+td {
+    border: 1px solid var(--ccolor);
+    border-collapse: collapse;
+    padding: 10px 50px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.border {
+    border-bottom: 3px solid var(--ccolor);
+    margin: 20px 340px 20px 0px;
+}
+
+.park {
+    background-image: url("img/mid-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+.park-content{
+    position: absolute;
+}
